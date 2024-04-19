@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial scale = 1.0">
+        <title>Jecoliah Gbobo</title>
+        <link rel = "stylesheet" href = "../css/site.css">
+        <link href="../css/jquery.bxslider.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav id = "wireframe1">
+            <ul>
+                <li><a href = "../webpages/index.html">Home</a> </li>
+                <li><a href = "skills.html">Skills</a></li>
+                <li><a href = "portfolio.html">Portfolio</a></li>
+                <li> <a href = "contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Jecoliah Gbobo</h1>
+        </header>
+        <nav id = "wireframe2">
+            <ul>
+                <li><a href = "../webpages/index.html">Home</a> </li>
+                <li><a href = "skills.html">Skills</a></li>
+                <li><a href = "portfolio.html">Portfolio</a></li>
+                <li> <a href = "contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 id="h2">Photography</h2>
+            <ul class="slider">
+                <li><img src="../images/portfolio/DSC00010.JPG" alt="potrait of girl" ></li>
+                <li><img src="../images/portfolio/DSC00223.JPG" alt="picture of mother holding child and smiling" ></li>
+                <li><img src="../images/portfolio/DSC00522.JPG" alt="child outside" ></li>
+                <li><img src="../images/portfolio/DSC00671.JPG" alt="crescent moon" ></li>
+                <li><img src="../images/portfolio/DSC00822.jpg" alt="closeup of kids in car " ></li>
+                <li><img src="../images/portfolio/DSC00842.jpg" alt="dreamworks on car tv display" ></li>
+                <li><img src="../images/portfolio/DSC00862.jpg" alt="traffic light by hospital" ></li>
+                <li><img src="../images/portfolio/6039ED8E-1019-4D13-9120-630CF0501220.JPG" alt="sunset" ></li>
+            </ul>
+            <h2 id="h2">Graphic Design</h2>
+            <ul class="slider">
+                <li><img src="../images/portfolio/IMG_0042.JPG" alt="robot face" ></li>
+                <li><img src="../images/portfolio/IMG_0053.PNG" alt="book logo" ></li>
+                <li><img src="../images/portfolio/Screenshot 2024-04-19 093131.png" alt="clones" ></li>
+                <li><img src="../images/portfolio/Screenshot 2024-04-19 093420.png" alt="dreamworks on car tv display" ></li>
+            </ul>
+        </main>
+        <footer>
+            <h2>About Me</h2>
+            <p>I am currently studying computer programming at the Humber Institute of Technology And Advanced Learning. I enjoy programming and creating things online such as this website. This site is a project for my Web programming and Design class. It is my hope that it properly displays my skills and knowledge in programming.</p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <!-- Call to the bxSlider function -->
+    <script>
+        $(document).ready( () => 
+            $(".slider").bxSlider({
+              auto: false,
+              autoControls: false,
+              captions: true,
+              minSlides: 2,
+              maxSlides: 2,
+              slideWidth: 300,
+              slideMargin: 20
+            })
+        )
+    </script>
+    </body>
+</html>
